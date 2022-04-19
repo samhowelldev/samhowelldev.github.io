@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+body { 
+  background-color: #EFF1F5;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+    width: 227px;
+    height: 50px;
+    left: 68px;
+    top: 46px;
+}
+
+.showcase
+{
+
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+
+  background: #111;
+
+  z-index: 2;
+}
+
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+
+}
+
+.hero 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 0 auto;
+  margin-top: 180;
+
+  /* margin-top: 250;
+  margin-left: 600; */
+
+  flex-direction: column;
+  z-index: 10;
+
+
+  max-height: 300px;
+
+  
+}
+
+/* a:hover, a:focus {
+  background-color: none;
+  color: #333;
+  transition: 1s;
+} */
+
+.nav-btn {
+  margin-top: 18px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    width: 158px;
+    height: 42px;
+    
+
+    background-color: #02D29E;
+    color: #FAFAFA;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+
+
+.hero h2
+{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 65px;
+    color: #EFF1F5;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  backdrop-filter: blur(4px);
+}
+
+.hero-btn
+{
+  margin-top: 20px;
+  font-size: 14px;
+  background: #02D29E;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  text-decoration: none;
+  font-family: 'Manrope';
+  font-weight: 700;
+  color: #1F2437;
+  transition: 0.2s;
+}
+
+
+.menu
+{
+  width: 800px;
+  height: 100%;
+
+  align-items: center;
+}
+
+.menu ul
+{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul li
+{
+  list-style: none;
+}
+
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Manrope;
+  font-weight: 400;
+  color: #EFF1F5;
+
+  display: flex;
+  justify-content: center;
+
+  margin: 28px;
+
+}
+
+.secondary {
+  background-color: #EFF1F5;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-header h2 {
+  margin: 40px 580px 40px 0;
+}
+
+.access {
+  font-size: 32;
+  font-weight: 800;
+}
+
+.cards {
+  width: fit-content;
+  margin-bottom: 60px;
+}
+
+.cards-top {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-btm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-1 {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  height: 340px;
+  left: 80px;
+  top: 1198px;
+
+  background: #4D49F8;
+  border-radius: 25px;
+}
+
+.card1context {
+  padding: 10px 10px 0 10px;
+
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px;
+  text-decoration: none;
+
+  color: #EFF1F5;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.cta {
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+
+  color: #EFF1F5;
+  text-decoration: none;
+}
+
+.card-2 {
+  width: 835px;
+  height: 340px;
+
+  background: #a6a9b3;
+
+  border-radius: 25px;
+  }
+
+.card-2:hover {
+  background: #1F2437;
+  transition: 1s ease-in-out;
+}
+
+.card-2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.card-4-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.card4img {
+  width: 197px;
+  height: 214px;
+  margin-top: 20px;
+}
+
+.card-4-content {
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 50px;
+  color: #1F2437;
+}
+
+.cta4 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+
+
+  color: #1F2437;
+  text-decoration: none;
+}
+
+.card-2-content {
+  margin-left: 20px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 50px;
+  color: #EFF1F5;
+}
+
+.card2img {
+  width: 308px;
+  height: 228px;
+}
+
+.cta2 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card-3 {
+  margin-right: 20px;
+  width: 620px;
+  height: 340px;
+  left: 80px;
+  top: 1586px;
+
+  background: #1F2437;
+  border-radius: 25px;
+  }
+
+.card-3-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-3-content {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  color: #EFF1F5;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: px;
+
+  width: fit-content;
+
+}
+
+.cta3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+
+
+  color: #EFF1F5;
+  text-decoration: none;
+}
+
+.card3img {
+  
+  width: 221px;
+  height: 340px;
+
+   margin-top: 0;
+}
+
+.card-4 {
+  width: 620px;
+  height: 340px;
+  left: 740px;
+  top: 1586px;
+
+  background: #13CFFC;
+  border-radius: 25px;
+}
+
+.subtitle-1 {
+  font-size: 20px;
+}
+
+
+/* Card animations */
+
+.card-1:hover {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 12px 12px 0px -1px #403DC9; 
+  box-shadow: 12px 12px 0px -1px #403DC9;
+
+  transition: linear 0.8s;
+}
+
+.card-2:hover {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 12px 12px 0px -1px #4E5A8A; 
+  box-shadow: 12px 12px 0px -1px #4E5A8A;
+  transition: linear 0.8s;
+}
+
+.card-3:hover {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 12px 12px 0px -1px #4E5A8A; 
+  box-shadow: 12px 12px 0px -1px #4E5A8A;
+  transition: linear 0.8s;
+}
+
+.card-4:hover {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 12px 12px 0px -1px #2A70BF; 
+  box-shadow: 12px 12px 0px -1px #2A70BF;
+  transition: linear 0.8s;
+}
+
+.cta:hover {
+  font-weight: 800;
+}
+
+.cta2:hover {
+  font-weight: 800;
+}
+
+.cta3:hover {
+  font-weight: 800;
+}
+
+.cta4:hover {
+  font-weight: 800;
+}
